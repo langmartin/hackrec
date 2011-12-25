@@ -1,0 +1,52 @@
+#+TITLE:     06 SICP 1.2
+#+AUTHOR:    Lang Martin
+#+EMAIL:     lang.martin@gmail.com
+#+TODO:      Do Discuss | Skip
+
+* Chapter 1.2
+** Section 1.2.3
+*** Do Exercise 1.14
+    We haven't practiced drawing trees of function calls much, just
+    draw the answer on a piece of paper.
+
+*** Skip Exercise 1.15
+
+** Section 1.2.4
+   Remember exponation is just squared, cubed, etc. This section is
+   interesting because we solve the problem two different ways, and
+   the second way takes fewer steps.
+
+*** Skip Exercise 1.16
+    This exercise and 1.18 are just an iterative version of the
+    recursive procedure. It's good practice, so do it if you feel like
+    it.
+
+*** Do Exercise 1.17
+
+*** Skip Exercise 1.18
+    Do this if you did 1.16.
+
+*** Skip Exercise 1.19
+** Section 1.2.5
+   This is just another discussion of a recursive process. The
+   interesting part is the discussion of Euclid's Algorithm, so it
+   shouldn't be important to have a clear sense of what a GCD is
+   before you start.
+
+*** Discuss Exercise 1.2.5
+    An interesting test of how much you understand the steps scheme
+    uses. We can do more interpreter tracing together to talk about
+    this one.
+
+** Section 1.2.6
+   A bunch more math, but important concepts.
+
+*** Do Exercise 1.21
+*** Skip Exercise 1.22
+*** Skip Exercise 1.23
+*** Skip Exercise 1.23
+*** Skip Exercise 1.24
+*** Do Exercise 1.25
+*** Do Exercise 1.26
+*** Skip Exercise 1.27
+*** Skip Exercise 1.28
