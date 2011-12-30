@@ -8,7 +8,7 @@ This repository contains a library defining setences as used by the
 Berkely CS61A Lecture series and the working file for each hackrec
 class.
 
-* Schedule
+* Schedule (Next 07 SICP 1.2.4)
 ** 00 Introduction
    SCHEDULED: <2011-11-07 Mon>
 
@@ -55,7 +55,7 @@ class.
        pennies should be returned, on n/5 for nickles, n/10 for dimes,
        etc.
 
-** 07 SICP 1.2.4
+** 07 SICP 1.2.4                                                       :Next:
    SCHEDULED: <2012-01-02 Mon>
    :PROPERTIES:
    :VISIBILITY: all
