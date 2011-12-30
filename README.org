@@ -55,7 +55,7 @@ class.
        pennies should be returned, on n/5 for nickles, n/10 for dimes,
        etc.
 
-** <<07 SICP 1.2.4>>
+** 07 SICP 1.2.4
    SCHEDULED: <2012-01-02 Mon>
 
    fast-exponent and fast-multiply.
