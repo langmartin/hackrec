@@ -1,4 +1,4 @@
-(load "/Users/lang/code/hackrec/sentences.scm")
+(load "sentences.scm")
 
 (define (reverse word)
   (if (empty? word)
