@@ -57,8 +57,9 @@ class.
 
 ** 07 SICP 1.2.4
    SCHEDULED: <2012-01-02 Mon>
-
    fast-exponent and fast-multiply.
+   http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-11.html#%_sec_1.2.4
+
    This section is interesting because we solve the problem two
    different ways (twice), and the second way takes fewer steps.
 
@@ -78,3 +79,12 @@ class.
 *** Exercise 1.22
 *** Exercise 1.25
 *** Exercise 1.26
+
+* Links
+  - SICP :: http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-4.html#%_toc_start
+  - SICP Solutions :: http://community.schemewiki.org/?sicp-solutions
+  - CS61A :: http://webcast.berkeley.edu/playlist#c,s,Spring_2008,6879A8466C44A5D5
+
+  A couple of comments about CS61A (just stuff I didn't want to lose):
+  http://www.cs.berkeley.edu/~bh/61a.html
+  http://wla.berkeley.edu/~cs61a/su11/CS61A_General_Info_Su2011.pdf
