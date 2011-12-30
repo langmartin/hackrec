@@ -1,4 +1,3 @@
-#+ -*- mode: org -*-
 #+TITLE:     hackrec Notes
 #+AUTHOR:    Lang Martin
 #+EMAIL:     lang.martin@gmail.com
