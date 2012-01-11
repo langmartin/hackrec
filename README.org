@@ -1,14 +1,14 @@
 #+TITLE:     hackrec Notes
 #+AUTHOR:    Lang Martin
 #+EMAIL:     lang.martin@gmail.com
-#+OPTIONS:   H:3 num:nil toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   H:3 num:nil toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
 #+COLUMNS:   %20ITEM(Class) %12SCHEDULED(Date)
 
 This repository contains a library defining setences as used by the
 Berkely CS61A Lecture series and the working file for each hackrec
 class.
 
-* Schedule (Next [[07 SICP 1.2.4]])
+* Schedule (Next [[08 SICP 1.2.5, 1.2.6]])
 ** 00 Introduction
    SCHEDULED: <2011-11-07 Mon>
 
@@ -56,7 +56,8 @@ class.
        etc.
 
 ** 07 SICP 1.2.4
-   SCHEDULED: <2012-01-02 Mon>
+   SCHEDULED: <2012-01-09 Mon>
+
    fast-exponent and fast-multiply.
    http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-11.html#%_sec_1.2.4
 
@@ -70,13 +71,14 @@ class.
     at the end of class 6.
 
 *** Exercise 1.18
+    Hint:
+    : (= (* 2 100) (* 4 50))
 
-** SICP 1.2.5
+** O8 SICP 1.2.5, 1.2.6
+   SCHEDULED: <2012-01-16 Mon>
+
 *** Exercise 1.20
-
-** SICP 1.2.6
 *** Exercise 1.21
-*** Exercise 1.22
 *** Exercise 1.25
 *** Exercise 1.26
 
