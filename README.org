@@ -8,45 +8,45 @@ This repository contains a library defining setences as used by the
 Berkely CS61A Lecture series and the working file for each hackrec
 class.
 
-* Schedule (Next [[08 SICP 1.2.5, 1.2.6]])
+* Schedule (Next [[09 SICP 1.3]])
 ** 00 Introduction
-   SCHEDULED: <2011-11-07 Mon>
+SCHEDULED: <2011-11-07 Mon>
 
 ** 01 SICP 1.1.1
-   SCHEDULED: <2011-11-14 Mon>
+SCHEDULED: <2011-11-14 Mon>
 
 ** 02 SICP 1.1.1 and string-reverse
-   SCHEDULED: <2011-11-21 Mon>
+SCHEDULED: <2011-11-21 Mon>
 
 ** 03 CS61A Lectures 1-3
-   SCHEDULED: <2011-12-05 Mon>
-   Introduced [[file:sentences.scm][sentences]].
-   In class, we did reverse (for sentences and words) both recursively
-   and iteratively.
+SCHEDULED: <2011-12-05 Mon>
+Introduced [[file:sentences.scm][sentences]].
+In class, we did reverse (for sentences and words) both recursively
+and iteratively.
 
 ** 04 SICP 1.2.1, 1.2.2
-   SCHEDULED: <2011-12-12 Mon>
-   Fibonacci, recursively and iteratively.
+SCHEDULED: <2011-12-12 Mon>
+Fibonacci, recursively and iteratively.
 
 ** 05 SICP 1.2.3
-   SCHEDULED: <2011-12-19 Mon>
+SCHEDULED: <2011-12-19 Mon>
 
 *** Exercise 1.12
-    Pascal's triangle and algorithmic growth. Our solution in class
-    was kind of weird, we were supposed to come up with a purely
-    numeric approach that grew in both directions. I used sentences to
-    simplify the problem, so our version is faster than the intended
-    solution. The intended solution is this one:
-    http://community.schemewiki.org/?sicp-ex-1.12
+Pascal's triangle and algorithmic growth. Our solution in class
+was kind of weird, we were supposed to come up with a purely
+numeric approach that grew in both directions. I used sentences to
+simplify the problem, so our version is faster than the intended
+solution. The intended solution is this one:
+http://community.schemewiki.org/?sicp-ex-1.12
 
 ** 06 SICP 1.2.3
-   SCHEDULED: <2011-12-27 Tue>
+SCHEDULED: <2011-12-27 Tue>
 
 *** Exercise 1.14
-    The count-change procedure and algorithmic growth.
+The count-change procedure and algorithmic growth.
 
-    A couple of comments on figuring out the O growth for this
-    function:
+A couple of comments on figuring out the O growth for this
+function:
 
     1) I did it incorrectly the first time, don't get discouraged.
     2) It's important to understand the common growth patterns, n,
@@ -56,37 +56,55 @@ class.
        etc.
 
 ** 07 SICP 1.2.4
-   SCHEDULED: <2012-01-09 Mon>
+SCHEDULED: <2012-01-09 Mon>
 
-   fast-exponent and fast-multiply.
-   http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-11.html#%_sec_1.2.4
+fast-exponent and fast-multiply.
+http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-11.html#%_sec_1.2.4
 
-   This section is interesting because we solve the problem two
-   different ways (twice), and the second way takes fewer steps.
+This section is interesting because we solve the problem two
+different ways (twice), and the second way takes fewer steps.
 
 *** Exercise 1.16
 
 *** Exercise 1.17
-    See the bottom of [[file:06-count-change.scm][06-count-change.scm]], we started discussing this
-    at the end of class 6.
+See the bottom of [[file:06-count-change.scm][06-count-change.scm]], we started discussing this
+at the end of class 6.
 
 *** Exercise 1.18
-    Hint:
+Hint:
     : (= (* 2 100) (* 4 50))
 
 ** O8 SICP 1.2.5, 1.2.6
-   SCHEDULED: <2012-01-16 Mon>
+SCHEDULED: <2012-01-16 Mon>
 
 *** Exercise 1.20
+Normal order is not without it's consequences.
+
 *** Exercise 1.21
+Just getting setup for working through the rest of the exercises.
+
 *** Exercise 1.25
+We cheated a bit here by adding (display ".") to the top of the
+looping procedures. It prints a dot into the repl every time the
+function goes around so that we can count iterations.
+
 *** Exercise 1.26
+Compare the two functions side by side.
+
+** 09 SICP 1.3
+SCHEDULED: <2012-01-23 Mon>
+
+*** Exercise 1.30
+*** Exercise 1.31
+*** Exercise 1.32
+*** Exercise 1.33
 
 * Links
-  - SICP :: http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-4.html#%_toc_start
-  - SICP Solutions :: http://community.schemewiki.org/?sicp-solutions
-  - CS61A :: http://webcast.berkeley.edu/playlist#c,s,Spring_2008,6879A8466C44A5D5
 
-  A couple of comments about CS61A (just stuff I didn't want to lose):
-  http://www.cs.berkeley.edu/~bh/61a.html
-  http://wla.berkeley.edu/~cs61a/su11/CS61A_General_Info_Su2011.pdf
+- SICP :: http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-4.html#%_toc_start
+- SICP Solutions :: http://community.schemewiki.org/?sicp-solutions
+- CS61A :: http://webcast.berkeley.edu/playlist#c,s,Spring_2008,6879A8466C44A5D5
+
+A couple of comments about CS61A (just stuff I didn't want to lose):
+http://www.cs.berkeley.edu/~bh/61a.html
+http://wla.berkeley.edu/~cs61a/su11/CS61A_General_Info_Su2011.pdf
