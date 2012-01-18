@@ -77,8 +77,10 @@ Hint:
 ** O8 SICP 1.2.5, 1.2.6
 SCHEDULED: <2012-01-16 Mon>
 
+Finding Primes and Fermat's little theorem.
+
 *** Exercise 1.20
-Normal order is not without it's consequences.
+Normal order has consequences.
 
 *** Exercise 1.21
 Just getting setup for working through the rest of the exercises.
