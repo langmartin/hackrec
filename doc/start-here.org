@@ -1,0 +1,87 @@
+#+TITLE:     SICP Start Here
+#+AUTHOR:    Lang Martin
+#+EMAIL:     lang.martin@gmail.com
+
+* What to Get
+** The Book
+
+The first section will use Structure and Interpretation of Computer
+Programs (SICP), which is available free from MIT.
+
+http://mitpress.mit.edu/sicp/
+
+** The Lectures
+
+MIT has video lectures available, but the Brian Harvey lectures from
+Berkeley are better. There are audio versions on iTunes U (search for
+CS61A), but the videos are probably a more useful resource.
+
+http://webcast.berkeley.edu/playlist#c,s,Spring_2008,6879A8466C44A5D5
+
+There are several different semesters, but that's the same one that
+has iTunes audio. If you follow the link to YouTube and click "show
+more", you can download the videos.
+
+** Scheme
+
+Racket is a nice scheme environment with support for SICP. It's free
+too. You'll use racket to actually write the programs.
+
+http://racket-lang.org/
+
+When you start Dr Racket, it will prompt you to choose a language, you
+should pick "Pretty Big" and select show details. On the details page,
+uncheck the last box on the form, "Disallow redefinition of initial
+bindings".
+
+You type definitions into the top panel and press the run button (or
+hit Command r) and you can type simple expressions into the bottom
+panel. When you save a file, it will save just the top panel.
+
+** Answers
+
+There's a teachers manual with the official answers, but I haven't
+found a free version of it. There are, however, community answers.
+
+http://community.schemewiki.org/?SICP-Solutions
+
+* What to Expect
+
+Start with the first few Brian Harvey lectures, he'll introduce the
+basic pieces of how scheme works and getting you though some simple
+examples. He's not using racket but you can follow along with the
+examples [1].
+
+SICP is hard. The good news is that's it's only as hard as it needs to
+be; programming is kind of hard. In addition to being about
+programming, SICP uses a lot of examples where you solve math
+problems. The examples are good, but you will have to read slowly. The
+book will give you enough information to figure out what your programs
+need to do.
+
+You should expect to spend about six months on the first three
+chapters of SICP and another three or so learning with one of the
+practical books. The class hasn't gotten that far yet, we'll probably
+do the C Programming Language, by Kernighan and Ritchie. After that,
+we will probably start finding open source projects to contribute to
+in order to build experience and reputation.
+
+Chapters four and five of SICP will build up your understanding of the
+how programming languages work, which is a vital advantage. You should
+make time for it eventually.
+
+* Footnotes
+
+[1] In order to do all of the Berkeley examples, you need to load the
+sentences file.
+
+1) Create a folder on your computer somewhere.
+2) make a new, empty file called =scratch.scm= in that directory.
+3) Save https://raw.github.com/langmartin/hackrec/master/sentences.scm
+   in that same directory.
+4) Double click on =scratch.scm= to start DrRacket.
+5) add the line (load "sentences.scm") to the top of scratch and click
+   run.
+
+I copy the scratch file every day or so while I'm working through
+exercises to keep track of what I was doing on different days.
