@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+               "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>hackrec Notes</title>
+<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
+<meta name="title" content="hackrec Notes"/>
+<meta name="generator" content="Org-mode"/>
+<meta name="generated" content="2012-01-23 10:05:05 EST"/>
+<meta name="author" content="Lang Martin"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  html { font-family: Times, serif; font-size: 12pt; }
+  .title  { text-align: center; }
+  .todo   { color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #add8e6; font-weight:normal }
+  .target { }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  {margin-left:auto; margin-right:0px;  text-align:right;}
+  .left   {margin-left:0px;  margin-right:auto; text-align:left;}
+  .center {margin-left:auto; margin-right:auto; text-align:center;}
+  p.verse { margin-left: 3% }
+  pre {
+	border: 1pt solid #AEBDCC;
+	background-color: #F3F5F7;
+	padding: 5pt;
+	font-family: courier, monospace;
+        font-size: 90%;
+        overflow:auto;
+  }
+  table { border-collapse: collapse; }
+  td, th { vertical-align: top;  }
+  th.right  { text-align:center;  }
+  th.left   { text-align:center;   }
+  th.center { text-align:center; }
+  td.right  { text-align:right;  }
+  td.left   { text-align:left;   }
+  td.center { text-align:center; }
+  dt { font-weight: bold; }
+  div.figure { padding: 0.5em; }
+  div.figure p { text-align: center; }
+  div.inlinetask {
+    padding:10px;
+    border:2px solid gray;
+    margin:10px;
+    background: #ffffcc;
+  }
+  textarea { overflow-x: auto; }
+  .linenr { font-size:smaller }
+  .code-highlighted {background-color:#ffff00;}
+  .org-info-js_info-navigation { border-style:none; }
+  #org-info-js_console-label { font-size:10px; font-weight:bold;
+                               white-space:nowrap; }
+  .org-info-js_search-highlight {background-color:#ffff00; color:#000000;
+                                 font-weight:bold; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+
+</head>
+<body>
+
+<div id="preamble">
+
+</div>
+
+<div id="content">
+<h1 class="title">hackrec Notes</h1>
+
+<p>This repository contains a library defining setences as used by the
+Berkely CS61A Lecture series and the working file for each hackrec
+class.
+</p>
+
+<div id="outline-container-1" class="outline-2">
+<h2 id="sec-1">Schedule (Next <a href="#sec-1-10">09 SICP 1.3</a>)</h2>
+<div class="outline-text-2" id="text-1">
+
+
+</div>
+
+<div id="outline-container-1-1" class="outline-3">
+<h3 id="sec-1-1">00 Introduction</h3>
+<div class="outline-text-3" id="text-1-1">
+
+<p> <span class="timestamp-wrapper"><span class="timestamp-kwd">SCHEDULED: </span> <span class="timestamp">2011-11-07 Mon</span></span><br/>
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-1-2" class="outline-3">
+<h3 id="sec-1-2">01 SICP 1.1.1</h3>
+<div class="outline-text-3" id="text-1-2">
+
+<p> <span class="timestamp-wrapper"><span class="timestamp-kwd">SCHEDULED: </span> <span class="timestamp">2011-11-14 Mon</span></span><br/>
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-1-3" class="outline-3">
+<h3 id="sec-1-3">02 SICP 1.1.1 and string-reverse</h3>
+<div class="outline-text-3" id="text-1-3">
+
+<p> <span class="timestamp-wrapper"><span class="timestamp-kwd">SCHEDULED: </span> <span class="timestamp">2011-11-21 Mon</span></span><br/>
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-1-4" class="outline-3">
+<h3 id="sec-1-4">03 CS61A Lectures 1-3</h3>
+<div class="outline-text-3" id="text-1-4">
+
+<p> <span class="timestamp-wrapper"><span class="timestamp-kwd">SCHEDULED: </span> <span class="timestamp">2011-12-05 Mon</span></span><br/>
+Introduced <a href="sentences.scm">sentences</a>.
+In class, we did reverse (for sentences and words) both recursively
+and iteratively.
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-1-5" class="outline-3">
+<h3 id="sec-1-5">04 SICP 1.2.1, 1.2.2</h3>
+<div class="outline-text-3" id="text-1-5">
+
+<p> <span class="timestamp-wrapper"><span class="timestamp-kwd">SCHEDULED: </span> <span class="timestamp">2011-12-12 Mon</span></span><br/>
+Fibonacci, recursively and iteratively.
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-1-6" class="outline-3">
+<h3 id="sec-1-6">05 SICP 1.2.3</h3>
+<div class="outline-text-3" id="text-1-6">
+
+<p> <span class="timestamp-wrapper"><span class="timestamp-kwd">SCHEDULED: </span> <span class="timestamp">2011-12-19 Mon</span></span><br/>
+</p>
+
+</div>
+
+<div id="outline-container-1-6-1" class="outline-4">
+<h4 id="sec-1-6-1">Exercise 1.12</h4>
+<div class="outline-text-4" id="text-1-6-1">
+
+<p>Pascal's triangle and algorithmic growth. Our solution in class
+was kind of weird, we were supposed to come up with a purely
+numeric approach that grew in both directions. I used sentences to
+simplify the problem, so our version is faster than the intended
+solution. The intended solution is this one:
+<a href="http://community.schemewiki.org/?sicp-ex-1.12">http://community.schemewiki.org/?sicp-ex-1.12</a>
+</p>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-1-7" class="outline-3">
+<h3 id="sec-1-7">06 SICP 1.2.3</h3>
+<div class="outline-text-3" id="text-1-7">
+
+<p> <span class="timestamp-wrapper"><span class="timestamp-kwd">SCHEDULED: </span> <span class="timestamp">2011-12-27 Tue</span></span><br/>
+</p>
+
+</div>
+
+<div id="outline-container-1-7-1" class="outline-4">
+<h4 id="sec-1-7-1">Exercise 1.14</h4>
+<div class="outline-text-4" id="text-1-7-1">
+
+<p>The count-change procedure and algorithmic growth.
+</p>
+<p>
+A couple of comments on figuring out the O growth for this
+function:
+</p>
+<ol>
+<li>I did it incorrectly the first time, don't get discouraged.
+</li>
+<li>It's important to understand the common growth patterns, n,
+       n<sup>2</sup>, log n and n log n, but it's ok to let the details slip.
+</li>
+<li>The function on each input number to figure out how many
+       pennies should be returned, on n/5 for nickles, n/10 for dimes,
+       etc.
+</li>
+</ol>
+
+
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-1-8" class="outline-3">
+<h3 id="sec-1-8">07 SICP 1.2.4</h3>
+<div class="outline-text-3" id="text-1-8">
+
+<p> <span class="timestamp-wrapper"><span class="timestamp-kwd">SCHEDULED: </span> <span class="timestamp">2012-01-09 Mon</span></span><br/>
+</p>
+<p>
+fast-exponent and fast-multiply.
+<a href="http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-11.html#%_sec_1.2.4">http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-11.html#%_sec_1.2.4</a>
+</p>
+<p>
+This section is interesting because we solve the problem two
+different ways (twice), and the second way takes fewer steps.
+</p>
+
+</div>
+
+<div id="outline-container-1-8-1" class="outline-4">
+<h4 id="sec-1-8-1">Exercise 1.16</h4>
+<div class="outline-text-4" id="text-1-8-1">
+
+
+</div>
+
+</div>
+
+<div id="outline-container-1-8-2" class="outline-4">
+<h4 id="sec-1-8-2">Exercise 1.17</h4>
+<div class="outline-text-4" id="text-1-8-2">
+
+<p>See the bottom of <a href="06-count-change.scm">06-count-change.scm</a>, we started discussing this
+at the end of class 6.
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-1-8-3" class="outline-4">
+<h4 id="sec-1-8-3">Exercise 1.18</h4>
+<div class="outline-text-4" id="text-1-8-3">
+
+<p>Hint:
+</p><pre class="example">
+(= (* 2 100) (* 4 50))
+</pre>
+
+
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-1-9" class="outline-3">
+<h3 id="sec-1-9">O8 SICP 1.2.5, 1.2.6</h3>
+<div class="outline-text-3" id="text-1-9">
+
+<p> <span class="timestamp-wrapper"><span class="timestamp-kwd">SCHEDULED: </span> <span class="timestamp">2012-01-16 Mon</span></span><br/>
+</p>
+<p>
+Finding Primes and Fermat's little theorem.
+</p>
+
+</div>
+
+<div id="outline-container-1-9-1" class="outline-4">
+<h4 id="sec-1-9-1">Exercise 1.20</h4>
+<div class="outline-text-4" id="text-1-9-1">
+
+<p>Normal order has consequences.
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-1-9-2" class="outline-4">
+<h4 id="sec-1-9-2">Exercise 1.21</h4>
+<div class="outline-text-4" id="text-1-9-2">
+
+<p>Just getting setup for working through the rest of the exercises.
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-1-9-3" class="outline-4">
+<h4 id="sec-1-9-3">Exercise 1.25</h4>
+<div class="outline-text-4" id="text-1-9-3">
+
+<p>We cheated a bit here by adding (display ".") to the top of the
+looping procedures. It prints a dot into the repl every time the
+function goes around so that we can count iterations.
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-1-9-4" class="outline-4">
+<h4 id="sec-1-9-4">Exercise 1.26</h4>
+<div class="outline-text-4" id="text-1-9-4">
+
+<p>Compare the two functions side by side.
+</p>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-1-10" class="outline-3">
+<h3 id="sec-1-10">09 SICP 1.3</h3>
+<div class="outline-text-3" id="text-1-10">
+
+<p> <span class="timestamp-wrapper"><span class="timestamp-kwd">SCHEDULED: </span> <span class="timestamp">2012-01-23 Mon</span></span><br/>
+</p>
+
+</div>
+
+<div id="outline-container-1-10-1" class="outline-4">
+<h4 id="sec-1-10-1">Exercise 1.30</h4>
+<div class="outline-text-4" id="text-1-10-1">
+
+</div>
+
+</div>
+
+<div id="outline-container-1-10-2" class="outline-4">
+<h4 id="sec-1-10-2">Exercise 1.31</h4>
+<div class="outline-text-4" id="text-1-10-2">
+
+</div>
+
+</div>
+
+<div id="outline-container-1-10-3" class="outline-4">
+<h4 id="sec-1-10-3">Exercise 1.32</h4>
+<div class="outline-text-4" id="text-1-10-3">
+
+</div>
+
+</div>
+
+<div id="outline-container-1-10-4" class="outline-4">
+<h4 id="sec-1-10-4">Exercise 1.33</h4>
+<div class="outline-text-4" id="text-1-10-4">
+
+
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-2" class="outline-2">
+<h2 id="sec-2">Links</h2>
+<div class="outline-text-2" id="text-2">
+
+
+<dl>
+<dt>SICP</dt><dd><a href="http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-4.html#%_toc_start">http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-4.html#%_toc_start</a>
+</dd>
+<dt>SICP Solutions</dt><dd><a href="http://community.schemewiki.org/?sicp-solutions">http://community.schemewiki.org/?sicp-solutions</a>
+</dd>
+<dt>CS61A</dt><dd><a href="http://webcast.berkeley.edu/playlist#c,s,Spring_2008,6879A8466C44A5D5">http://webcast.berkeley.edu/playlist#c,s,Spring_2008,6879A8466C44A5D5</a>
+</dd>
+</dl>
+
+
+<p>
+A couple of comments about CS61A (just stuff I didn't want to lose):
+<a href="http://www.cs.berkeley.edu/~bh/61a.html">http://www.cs.berkeley.edu/~bh/61a.html</a>
+<a href="http://wla.berkeley.edu/~cs61a/su11/CS61A_General_Info_Su2011.pdf">http://wla.berkeley.edu/~cs61a/su11/CS61A_General_Info_Su2011.pdf</a>
+</p></div>
+</div>
+</div>
+
+<div id="postamble">
+<p class="date">Date: 2012-01-23 10:05:05 EST</p>
+<p class="author">Author: Lang Martin</p>
+<p class="creator">Org version 7.8.02 with Emacs version 24</p>
+<a href="http://validator.w3.org/check?uri=referer">Validate XHTML 1.0</a>
+
+</div>
+</body>
+</html>
