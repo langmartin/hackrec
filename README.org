@@ -8,7 +8,7 @@ This repository contains a library defining setences as used by the
 Berkely CS61A Lecture series and the working file for each hackrec
 class.
 
-* Schedule (Next [[09 SICP 1.3]])
+* Schedule (Next [[10%20SICP%201.3][10 SICP 1.3]])
 ** 00 Introduction
 SCHEDULED: <2011-11-07 Mon>
 
@@ -97,9 +97,42 @@ Compare the two functions side by side.
 SCHEDULED: <2012-01-23 Mon>
 
 *** Exercise 1.30
+In our example code, we went back and edited =sum= into =sum%=, with
+additional parameters for an operation and a seed value. This turns
+out to be the same we were asked to do for 1.32, but I didn't read
+ahead carefully enough.
+
 *** Exercise 1.31
+The pi4 procedure can get a bit complicated. Hint:
+
+#+begin_src scheme
+  (= (* 2/3
+        4/3)
+     (/ (* 2 4)
+        (* 3 3)))
+#+end_src
+
+Use =a= to indicate the number of iterations rather than the value of
+the specific terms.
+
 *** Exercise 1.32
+1.30, with a couple of extra holes poked in it.
+
 *** Exercise 1.33
+Check the value of filter before choosing how to iterate.
+
+** 10 SICP 1.3
+SCHEDULED: <2012-01-30 Mon>
+
+*** 1.3.2
+**** Exercise 1.34
+
+*** 1.3.3
+This section is real math heavy even by the fairly generous standards
+that we've been using, so read through it but don't get too bogged
+down in the math. You have permission to skip through things.
+
+**** Exercise 1.36
 
 * Links
 
