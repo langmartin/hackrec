@@ -1,0 +1,21 @@
+* Scheme basics
+
+1) Explain the difference between '+, +, and (+).
+
+2) What's the value of
+   #+begin_src scheme
+     (define (sum x y)
+       (+ x y))
+     (sum 2 3)
+   #+end_src
+
+3) Using the substitution rule, what steps does scheme take to arrive
+   at the answer to #2?
+
+4) What does scheme do when I call =(do 4 4)=?
+   #+begin_src scheme
+     (define (do x y)
+       (if (= x y)
+          (square x)
+          (square y)))
+   #+end_src
