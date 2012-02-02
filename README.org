@@ -14,12 +14,21 @@ SCHEDULED: <2012-01-30 Mon>
 ** 1.3.2
 *** Exercise 1.34
 
+Step through the substitution as though =g= were any regular
+parameter. It might be helpful to say "apply procedure" to yourself
+when you see an open paren.
+
 ** 1.3.3
+
 This section is real math heavy even by the fairly generous standards
 that we've been using, so read through it but don't get too bogged
 down in the math.
 
 *** Exercise 1.36
+
+This refers to using display and newline to see what's going on from
+back in Exercise 1.22, which we skipped. Sorry about that. We've
+talked about it in class, though.
 
 * Links
 
