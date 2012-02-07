@@ -4,7 +4,7 @@
 #+OPTIONS:   H:3 num:nil toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
 #+COLUMNS:   %20ITEM(Class) %12SCHEDULED(Date)
 
-This repository contains a library defining setences as used by the
+This repository contains a library defining sentences as used by the
 Berkely CS61A Lecture series and the working file for each hackrec
 class.
 
@@ -17,25 +17,55 @@ definition for deriv is pretty cool if you recall what a derivative
 is.
 
 ** Exercise 1.40
+
+Not as weird as it looks, cubic should return a procedure that takes
+the one argument =x= and that procedure should perform the equation
+they listed.
+
 ** Exercise 1.41
+
+We handwaved at the actual expansion of all the doubling; notice that
+double is mostly doubling itself, so that we've built a tree of
+repeating function calls before we throw =inc= in as the function to
+repeat.
+
 ** Exercise 1.42
+
+I opined that in most of cases, =compose= is less clear to read than
+the writing a new procedure body because the procedure body uses the
+universal language of scheme's procedure appliction to make clear what
+happens in what order.
+
 ** Exercise 1.43
+
+I realized that I was too hasty, because it would be difficult to
+write =repeated= without =compose=. With =compose=, it's just like any
+other recursive function.
+
 ** Exercise 1.44
+
+Jacob and I both made the same mistake (labeled "wrong" in the file).
+After getting the procedure =(smooth f)=, we repeated it =n= times.
+The correct answer repeats =smooth= itself and provides =f= after all
+the smooth procedures are set to operate on the results of each other.
+
 ** Optional 1.45
+
 This looks like it will take a lot of time, so don't worry about it if
-you don't get to it.
+you don't get to it. We didn't cover this in class.
 
 ** Optional 1.46
-Also lots of time.
+
+Also lots of time. Also ignored.
 
 * Links
 
-See [[file:doc/schedule.org][The Schedule]] for old classes and notes on the exercises.
+See [[file:doc/hackrec-1.org][The Schedule]] for old classes and notes on the exercises.
 
-- SICP :: http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-4.html#%_toc_start
-- SICP Solutions :: http://community.schemewiki.org/?sicp-solutions
-- CS61A :: http://webcast.berkeley.edu/playlist#c,s,Spring_2008,6879A8466C44A5D5
++ SICP :: http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-4.html#%_toc_start
++ SICP Solutions :: http://community.schemewiki.org/?sicp-solutions
++ CS61A :: http://webcast.berkeley.edu/playlist#c,s,Spring_2008,6879A8466C44A5D5
 
-A couple of comments about CS61A (just stuff I didn't want to lose):
+A couple of comments/propaganda about CS61A (you don't need to read these):
 http://www.cs.berkeley.edu/~bh/61a.html
 http://wla.berkeley.edu/~cs61a/su11/CS61A_General_Info_Su2011.pdf

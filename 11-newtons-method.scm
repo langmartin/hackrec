@@ -57,7 +57,7 @@
        (* a x x)
        (* b x)
        c)))
-    
+
 (newtons-method (cubic 1 2 3) 1)
 
 (define (double f)
@@ -87,7 +87,7 @@
 
 (define (avg3 x y z) (/ (+ x y z) 3))
 
-(define (smooth f) 
+(define (smooth f)
   (λ (x)
     (avg3 (f (- x dx))
           (f x)
@@ -100,8 +100,6 @@
 
 (define (n-fold-smooth f n)
   ((repeated smooth n) f))
-          
+
 ((n-fold-smooth square 3) 6)
 ((n-fold-smooth square 6) 3)
-
-(smooth +)
