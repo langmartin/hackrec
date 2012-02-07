@@ -1,6 +1,8 @@
 #+TITLE:     hackrec
 #+AUTHOR:    Lang Martin
 #+EMAIL:     lang.martin@gmail.com
+#+ARCHIVE:   doc/hackrec-1.org::
+#+TODO:      Exercise Optional | Solution
 #+OPTIONS:   H:3 num:nil toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
 #+COLUMNS:   %20ITEM(Class) %12SCHEDULED(Date)
 
@@ -8,55 +10,20 @@ This repository contains a library defining sentences as used by the
 Berkely CS61A Lecture series and the working file for each hackrec
 class.
 
-* 11 SICP 1.3.4
-SCHEDULED: <2012-02-06 Mon>
+* 12 SICP 2.1.1-3
+SCHEDULED: <2012-02-13 Mon>
 
-The Newton's method example uses some light calculus, but they define
-all the bits that you need for you right in the chapter. The
-definition for deriv is pretty cool if you recall what a derivative
-is.
+Woooo, chapter two! I think we should try for the first three
+sections, this material is a little easier than the last couple of
+sections have been. Section 2.1.3 is a little trickier, and also is
+very cool.
 
-** Exercise 1.40
-
-Not as weird as it looks, cubic should return a procedure that takes
-the one argument =x= and that procedure should perform the equation
-they listed.
-
-** Exercise 1.41
-
-We handwaved at the actual expansion of all the doubling; notice that
-double is mostly doubling itself, so that we've built a tree of
-repeating function calls before we throw =inc= in as the function to
-repeat.
-
-** Exercise 1.42
-
-I opined that in most of cases, =compose= is less clear to read than
-the writing a new procedure body because the procedure body uses the
-universal language of scheme's procedure appliction to make clear what
-happens in what order.
-
-** Exercise 1.43
-
-I realized that I was too hasty, because it would be difficult to
-write =repeated= without =compose=. With =compose=, it's just like any
-other recursive function.
-
-** Exercise 1.44
-
-Jacob and I both made the same mistake (labeled "wrong" in the file).
-After getting the procedure =(smooth f)=, we repeated it =n= times.
-The correct answer repeats =smooth= itself and provides =f= after all
-the smooth procedures are set to operate on the results of each other.
-
-** Optional 1.45
-
-This looks like it will take a lot of time, so don't worry about it if
-you don't get to it. We didn't cover this in class.
-
-** Optional 1.46
-
-Also lots of time. Also ignored.
+** Exercise 2.1
+** Exercise 2.2
+** Exercise 2.3
+** Exercise 2.4
+** Exercise 2.5
+** Exercise 2.6
 
 * Links
 
