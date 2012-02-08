@@ -3,6 +3,7 @@
 #+EMAIL:     lang.martin@gmail.com
 
 * What to Get
+
 ** The Book
 
 The first section will use Structure and Interpretation of Computer
@@ -32,7 +33,7 @@ http://racket-lang.org/
 When you start Dr Racket, it will prompt you to choose a language, you
 should pick "Pretty Big" and select show details. On the details page,
 uncheck the last box on the form, "Disallow redefinition of initial
-bindings".
+bindings".[1]
 
 You type definitions into the top panel and press the run button (or
 hit Command r) and you can type simple expressions into the bottom
@@ -50,7 +51,7 @@ http://community.schemewiki.org/?SICP-Solutions
 Start with the first few Brian Harvey lectures, he'll introduce the
 basic pieces of how scheme works and getting you though some simple
 examples. He's not using racket but you can follow along with the
-examples [1].
+examples.[2]
 
 SICP is hard. The good news is that's it's only as hard as it needs to
 be; programming is kind of hard. In addition to being about
@@ -72,7 +73,13 @@ make time for it eventually.
 
 * Footnotes
 
-[1] In order to do all of the Berkeley examples, you need to load the
+[1] There is also a racket language pack that someone put together for
+SICP, so we may want to try selecting "Determine language from source"
+and starting each file with
+
+: #lang planet neil/sicp
+
+[2] In order to do all of the Berkeley examples, you need to load the
 sentences file.
 
 1) Create a folder on your computer somewhere.
