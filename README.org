@@ -18,9 +18,37 @@ sections have been. Section 2.1.3 is a little trickier, and also is
 very cool.
 
 ** Exercise 2.1
+
+The first definition in the file is Jacob's, the second is from the
+solutions website. The solutions answer takes advantage of the way the
+negative sign propagates through division, walk through the
+substitution model with =n= and =d= of all four combinations of signs
+to verify it.
+
 ** Exercise 2.2
+
+The only thing I added to the obvious solution here is that =cons= is
+already a procedure that takes two values and combines them into one
+new value; you don't need to wrap a new procedure around a call to
+cons.
+
+Jacob's fancy =avg= uses the syntax we haven't learned yet for
+procedures of any number of arguments.
+
 ** Exercise 2.3
+
+The first definition of =len= use =car= and =cdr= directly, which
+breaks the abstraction. The second bits, =len-dimen= and =len= are my
+attempt to allow preserve the layers of abstraction while writing
+something sensibly short to abstract length. Once we have length
+defined, =perimeter= and =area= are pretty simple.
+
+Also, =(caar x)= is a shortcut for =(car (car x))=.
+
 ** Exercise 2.4
+
+To be continued.
+
 ** Exercise 2.5
 ** Exercise 2.6
 
