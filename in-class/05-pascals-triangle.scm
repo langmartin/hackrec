@@ -1,4 +1,4 @@
-(load "sentences.scm")
+(load "../sentences.scm")
 
 (define (second sent)
   (first (butfirst sent)))
