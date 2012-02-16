@@ -9,54 +9,11 @@ This repository contains a library defining sentences as used by the
 Berkely CS61A Lecture series and the working file for each hackrec
 class.
 
-* 12 SICP 2.1.1-3
-SCHEDULED: <2012-02-13 Mon>
-
-Woooo, chapter two! I think we should try for the first three
-sections, this material is a little easier than the last couple of
-sections have been. Section 2.1.3 is a little trickier, and also is
-very cool.
-
-** Exercise 2.1
-
-The first definition in the file is Jacob's, the second is from the
-solutions website. The solutions answer takes advantage of the way the
-negative sign propagates through division, walk through the
-substitution model with =n= and =d= of all four combinations of signs
-to verify it.
-
-** Exercise 2.2
-
-The only thing I added to the obvious solution here is that =cons= is
-already a procedure that takes two values and combines them into one
-new value; you don't need to wrap a new procedure around a call to
-cons.
-
-Jacob's fancy =avg= uses the syntax we haven't learned yet for
-procedures of any number of arguments.
-
-** Exercise 2.3
-
-The first definition of =len= use =car= and =cdr= directly, which
-breaks the abstraction. The second bits, =len-dimen= and =len= are my
-attempt to allow preserve the layers of abstraction while writing
-something sensibly short to abstract length. Once we have length
-defined, =perimeter= and =area= are pretty simple.
-
-Also, =(caar x)= is a shortcut for =(car (car x))=.
-
-** Exercise 2.4
-
-To be continued.
-
-** Exercise 2.5
-** Exercise 2.6
-
 * Links
 
 See [[file:doc/hackrec-1.org][The Schedule]] for old classes and notes on the exercises.
 
-+ SICP :: http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-4.html#%_toc_start
++ SICP :: http://mitpress.mit.edu/sicp/full-text/book/book.html
 + SICP Solutions :: http://community.schemewiki.org/?sicp-solutions
 + CS61A :: http://webcast.berkeley.edu/playlist#c,s,Spring_2008,6879A8466C44A5D5
 
