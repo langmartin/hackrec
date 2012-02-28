@@ -23,3 +23,4 @@
 (cdr (cons 16 7))
 
 ;; Exercise 2.6
+;; Church Numerals. See ../student/lang/church.scm

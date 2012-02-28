@@ -10,7 +10,7 @@ Berkely CS61A Lecture series and the working file for each hackrec
 class.
 
 * 13 SICP 2.1.3+
-SCHEDULED: <2012-02-20 Mon>
+SCHEDULED: <2012-02-27 Mon>
 
 ** Section 2.1.3
 *** Exercise 2.4
@@ -20,6 +20,8 @@ Peek at the notes from class 12 if you like.
 *** Exercise 2.5
 
 Any positive power of 2 is even, and any positive power of 3 is odd.
+This is a bad hint, sorry. Think about where the car was stored; look
+for the largest denominator that's a power of 2.
 
 *** Exercise 2.6
 
@@ -34,6 +36,9 @@ From the solutions site:
 : ((one square) 2)
 : ((two square) 2)
 : (((add two one) square) 2)
+
+We just went over my solution in [[./student/lang/church.scm]], there's no
+code in the work file for this exercise.
 
 ** Skip Section 2.1.4
 
