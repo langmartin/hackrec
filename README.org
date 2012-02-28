@@ -9,43 +9,7 @@ This repository contains a library defining sentences as used by the
 Berkely CS61A Lecture series and the working file for each hackrec
 class.
 
-* 13 SICP 2.1.3+
-SCHEDULED: <2012-02-27 Mon>
-
-** Section 2.1.3
-*** Exercise 2.4
-
-Peek at the notes from class 12 if you like.
-
-*** Exercise 2.5
-
-Any positive power of 2 is even, and any positive power of 3 is odd.
-This is a bad hint, sorry. Think about where the car was stored; look
-for the largest denominator that's a power of 2.
-
-*** Exercise 2.6
-
-Don't spend way too much time on this, it's cool but not critical to
-your education. Try just doing copy and paste to add-1 to zero, but
-then trace that through and reduce the definition of one. Reduce two
-the same way, it clarifies the idea a lot.
-
-From the solutions site:
-
-: If you wonder how to use these functions here are few examples..
-: ((one square) 2)
-: ((two square) 2)
-: (((add two one) square) 2)
-
-We just went over my solution in [[./student/lang/church.scm]], there's no
-code in the work file for this exercise.
-
-** Skip Section 2.1.4
-
-This is an extended exercise which is interesting abstraction
-practice, and does involve some nice specific cases. It's also a lot
-of math, and everything will still make sense moving forward.
-
+* 14 SICP 2.2.1
 ** Section 2.2.1
 *** Exercise 2.17
 *** Exercise 2.18
