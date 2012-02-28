@@ -9,7 +9,9 @@ This repository contains a library defining sentences as used by the
 Berkely CS61A Lecture series and the working file for each hackrec
 class.
 
-* 14 SICP 2.2.1
+* 14 SICP 2.2.1-2
+SCHEDULED: <2012-03-05 Mon>
+
 ** Section 2.2.1
 *** Exercise 2.17
 *** Exercise 2.18
@@ -17,6 +19,27 @@ class.
 *** Exercise 2.20
 
 In which we finally learn how to define Jacob's fancy =avg= procedure.
+
+** Section 2.2.2
+
+There are a ton of exercises in here, but some of them are pretty
+easy.
+
+*** Exercise 2.24
+*** Exercise 2.25
+*** Exercise 2.26
+*** Exercise 2.27
+
+Think recursive!
+
+*** Exercise 2.28
+
+This will be pretty similar to the last exercise.
+
+*** Exercise 2.29
+*** Exercise 2.30
+*** Exercise 2.31
+*** Exercise 2.32
 
 * Links
 
