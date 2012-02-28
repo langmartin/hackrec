@@ -31,7 +31,23 @@
       ((n f)
        ((n2 f) x)))))
 
+(define (mult n n2)
+  (lambda (f)
+    (lambda (x)
+      ((n (lambda (f)
+            (lambda (x)
+              (mult n (minus n2 one)))))
+       x))))
+
 (define (square x) (* x x))
+
+(define (dot x)
+  (display "."))
+
+((two dot) '())
+(newline)
+(((plus one two) dot) '())
+(newline)
 
 ((one square) 2)
 ((two square) 2)
