@@ -48,15 +48,6 @@
 (define no-more? null?)
 (define first-denomination car)
 (define except-first-denomination car)
-(define (cc amount coin-values)
-  (cond ((= amount 0) 1)
-        ((or (< amount 0) (no-more? coin-values)) 0)
-        (else
-         (+ (cc amount
-                (except-first-denomination coin-values))
-            (cc (- amount
-                   (first-denomination coin-values))
-                coin-values)))))
 
 ;; Ex 2.20
 
@@ -83,7 +74,7 @@
   (if (null? items)
       nil
       (cons (square (car items))
-            (square-list (cdr items)))))           
+            (square-list (cdr items)))))
 
 (define (square-list items)
   (map square items))
@@ -107,7 +98,7 @@
 (define (4each proc list)
   (if (null? list)
       'undefined-sucka
-      (begin
+      (and                              ; begin
         (proc (car list))
         (4each proc (cdr list)))))
 

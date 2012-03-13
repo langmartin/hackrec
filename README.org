@@ -9,23 +9,58 @@ This repository contains a library defining sentences as used by the
 Berkely CS61A Lecture series and the working file for each hackrec
 class.
 
-* 14 SICP 2.2.1-2
-SCHEDULED: <2012-03-05 Mon>
+* 14 SICP 2.2.1
+SCHEDULED: <2012-03-12 Mon>
 
 ** Section 2.2.1
 *** Exercise 2.17
+
+We talked about the "named let" form in class, and the source file
+contains a =last-pair= that uses a named let to create an internal
+define. You don't need any of that, the inner recursive definition is
+correct.
+
 *** Exercise 2.18
+
+The first =reverse= is Jacob's, which is inefficient because
+=last-pair= and =butlast= both traverse the entire list (and =butlast=
+builds a new one). The second =reverse= is iterative, and demonstrates
+that iteration is always "backwards" as it traverses lists.
+
 *** Exercise 2.19
+
+Yay for long data names.
+
 *** Exercise 2.20
 
 In which we finally learn how to define Jacob's fancy =avg= procedure.
+The solution given is Jacob's.
+
+*** Exercise 2.21
+
+*** Exercise 2.22
+
+Think back to the solution for =reverse=.
+
+*** Exercise 2.23
+
+Jacob used =and= in his definition of =for-each=, which works but will
+stop running if any application of =proc= return false. The =begin=
+form throws away the first result and calls the second
+unconditionally.
+
+* 15 SICP 2.2.2
+SCHEDULED: <2012-03-19 Mon>
 
 ** Section 2.2.2
 
-There are a ton of exercises in here, but some of them are pretty
-easy.
-
 *** Exercise 2.24
+
+We discussed this in class #14, and there are some notes in [[file:in-class/14.scm][14.scm]].
+We'll start with it again, though. Try tracing through a couple of
+lists by writing out the cons cells. If you can see a sublist, it's in
+the =car= of cell.
+
 *** Exercise 2.25
 *** Exercise 2.26
 *** Exercise 2.27
