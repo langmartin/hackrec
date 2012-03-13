@@ -5,9 +5,11 @@
 #+OPTIONS:   H:3 num:nil toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
 #+COLUMNS:   %20ITEM(Class) %12SCHEDULED(Date)
 
-This repository contains a library defining sentences as used by the
-Berkely CS61A Lecture series and the working file for each hackrec
-class.
++ doc/hackrec-1.org :: Previous class notes (often updated after class
+     with more detail on the exercises).
++ in-class/*.scm :: Scheme files from our class discussions.
++ student/*/*.scm :: Scheme files from various student's work. I've
+     put my own homework responses in there as well.
 
 * 15 SICP 2.2.2
 SCHEDULED: <2012-03-19 Mon>
