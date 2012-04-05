@@ -11,8 +11,12 @@
 + student/*/*.scm :: Scheme files from various student's work. I've
      put my own homework responses in there as well.
 
+* Intermission and Review
+
+Simply Scheme
+
 * 15 SICP 2.2.2
-SCHEDULED: <2012-04-02 Mon>
+SCHEDULED: <2012-04-30 Mon>
 
 ** Section 2.2.2
 *** Exercise 2.24
